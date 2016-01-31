@@ -12,6 +12,12 @@ API Reference
     selection
     resource
     effect
+    ui
+    camera
+    coi
+    deployobj
+    event
+    monitor
 
 Misc. Reference
 ================
@@ -20,3 +26,4 @@ Misc. Reference
     :maxdepth: 2
     
     ease
+    eventlist

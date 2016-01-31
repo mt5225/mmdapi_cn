@@ -39,7 +39,7 @@ ChangePlacementBundle
 
 Change object model.
 
-.. _note:
+.. note::
     Model must be downloaded or used in scene.
 
 .. csv-table:: **Parameters**
@@ -100,7 +100,7 @@ ChangePlacementTexture
 
 Change texture of object.
 
-.. _note:
+.. note::
     texture must be downloaded or used in scene.
 
 .. csv-table:: **Parameters**

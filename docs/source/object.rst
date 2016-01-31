@@ -1,7 +1,7 @@
 .. _api-object-label:
 
-Object
-=================================
+ObjectCommand
+===============
 
 Base Class, commands which inherits from ObjectCommand will have following methods build-in.
 

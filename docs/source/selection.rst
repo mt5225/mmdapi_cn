@@ -78,7 +78,7 @@ Remove objects from candidate set.
 
     {
         "cmd": "RemoveFromCandidate", 
-        "uids":["obj01, "obj02"] 
+        "uids":["obj01", "obj02"] 
     }
 
 |
