@@ -14,14 +14,14 @@ Create object.
 
     uid,Yes,,UserID
     bundleId,Yes,,Model ID
-    parentId,No,"Current floor or park","Parent Object ID. 
+    parentId,No,"Current floor or park","Parent Object ID.
 
     .. note::
-        Only supports floor or park as parent
+        Only supports floor or park as parent.
 
     "   
     parentUid,No,"Current floor or park","Parent Object UID. 
-    
+
     .. note::
         Only supports floor or park as parent
 
@@ -76,7 +76,7 @@ Create object.
     :width: 120px
     :alt: Euler Angles
 
-    Euler angles is essentially rotation against axis x,y and z while y is the vertical axis.
+    Fig 1. Euler angles is essentially rotation against axis x,y and z while y is the vertical axis.
 
 
 |

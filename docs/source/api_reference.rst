@@ -18,6 +18,12 @@ API Reference
     deployobj
     event
     monitor
+    snapshot
+    web
+    logic
+    command_panel
+    calculate
+    level
 
 Misc. Reference
 ================

@@ -810,7 +810,7 @@ A build-in, easy to use 'object property panel', can be also used to config func
     config,Yes,"Panel position, use (x,y) as coordinate.
 
     .. note::
-        Default position is on top of object
+        Default position is on top of object.
     "
     posFromBuffer,No, "Same as presetPos，set position from buffer"
     turnWhenNegative, No,"Apply to (x,y) coordinate
@@ -820,6 +820,7 @@ A build-in, easy to use 'object property panel', can be also used to config func
     * if turnWhenNegative=false，coordinate is located outside the screen. for instance, [-0.1, -100]point to position left -10%, up -100 pixels
     
     "
+
 **Example**
 
 .. code-block:: javascript
