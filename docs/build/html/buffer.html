@@ -1,0 +1,503 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Buffer &mdash; MMD API 0.0.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="MMD API 0.0.1 documentation" href="index.html"/>
+        <link rel="up" title="API Reference" href="api_reference.html"/>
+        <link rel="next" title="Object Control" href="object_control.html"/>
+        <link rel="prev" title="Base Class：Object" href="object.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> MMD API
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="api_concept.html">MMD API Concept</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="api_reference.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="object.html">Base Class：Object</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Buffer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#copybuffer">CopyBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mergebuffer">MergeBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#subtractbuffer">SubtractBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setobjectstobuffer">SetObjectsToBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setbuffervalue">SetBufferValue</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="object_control.html">Object Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="selection.html">Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource.html">Resource</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api_reference.html#misc-reference">Misc. Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">MMD API</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="api_reference.html">API Reference</a> &raquo;</li>
+      
+    <li>Buffer</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/buffer.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="buffer">
+<h1>Buffer<a class="headerlink" href="#buffer" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="copybuffer">
+<h2>CopyBuffer<a class="headerlink" href="#copybuffer" title="Permalink to this headline">¶</a></h2>
+<p>Copy content of source buffer to target buffer, content in target buffer will be overwrote.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This command only apply to object buffers</p>
+</div>
+<table border="1" class="docutils" id="id1">
+<caption><span class="caption-text"><strong>Parameters</strong></span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="19%" />
+<col width="16%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>fromBuffer</td>
+<td>Yes</td>
+<td>source buffer path</td>
+</tr>
+<tr class="row-odd"><td>toBuffer</td>
+<td>Yes</td>
+<td>target buffer path</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<ul class="simple">
+<li>copy buffer by full path</li>
+</ul>
+<div class="highlight-json"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;CopyBuffer&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;fromBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/buffer1&quot;</span><span class="p">},</span>
+    <span class="nt">&quot;toBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/buffer2&quot;</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<ul class="simple">
+<li>copy buffer by relative path</li>
+</ul>
+<div class="highlight-json"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;CopyBuffer&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;fromBuffer&quot;</span><span class="p">:</span><span class="s2">&quot;buffer1&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;toBuffer&quot;</span><span class="p">:</span><span class="s2">&quot;buffer2&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<p><strong>NOTE</strong></p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">buffer1</span></code> same as  <code class="docutils literal"><span class="pre">{&quot;ObjectManager&quot;:&quot;RunBuffer/buffer1&quot;}</span></code></li>
+<li><code class="docutils literal"><span class="pre">buffer2</span></code> same as <code class="docutils literal"><span class="pre">{&quot;ObjectManager&quot;:&quot;RunBuffer/buffer2&quot;}</span></code></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="mergebuffer">
+<h2>MergeBuffer<a class="headerlink" href="#mergebuffer" title="Permalink to this headline">¶</a></h2>
+<p>Copy content of source buffer to target buffer, content in target buffer will be reserved.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This command only apply to object buffers</p>
+</div>
+<table border="1" class="docutils" id="id2">
+<caption><span class="caption-text"><strong>Parameters</strong></span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="19%" />
+<col width="16%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>fromBuffer</td>
+<td>Yes</td>
+<td>source buffer path</td>
+</tr>
+<tr class="row-odd"><td>toBuffer</td>
+<td>Yes</td>
+<td>target buffer path</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<div class="highlight-json"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;MergeBuffer&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;fromBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/buffer1&quot;</span><span class="p">},</span>
+    <span class="nt">&quot;toBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/buffer2&quot;</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="subtractbuffer">
+<h2>SubtractBuffer<a class="headerlink" href="#subtractbuffer" title="Permalink to this headline">¶</a></h2>
+<p>Delete objects in target buffer which are identical to objects in source buffer.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This command only apply to object buffers</p>
+</div>
+<table border="1" class="docutils" id="id3">
+<caption><span class="caption-text"><strong>Parameters</strong></span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="19%" />
+<col width="16%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>fromBuffer</td>
+<td>Yes</td>
+<td>source buffer path</td>
+</tr>
+<tr class="row-odd"><td>toBuffer</td>
+<td>Yes</td>
+<td>target buffer path</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<div class="highlight-json"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;SubtractBuffer&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;fromBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/buffer1&quot;</span><span class="p">},</span>
+    <span class="nt">&quot;toBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/buffer2&quot;</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="setobjectstobuffer">
+<h2>SetObjectsToBuffer<a class="headerlink" href="#setobjectstobuffer" title="Permalink to this headline">¶</a></h2>
+<p>Assign object to buffer.</p>
+<table border="1" class="docutils" id="id4">
+<caption><span class="caption-text"><strong>Parameters</strong></span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="19%" />
+<col width="16%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="object.html#api-object-label"><span>Object Reference</span></a></td>
+<td>Yes</td>
+<td>Object Reference</td>
+</tr>
+<tr class="row-odd"><td>toBuffer</td>
+<td>Yes</td>
+<td>target buffer path</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<ul class="simple">
+<li>refer object by uid</li>
+</ul>
+<div class="highlight-json"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;SetObjectsToBuffer&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;uid&quot;</span><span class="p">:</span><span class="s2">&quot;obj01&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;toBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/objsBuffer&quot;</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<ul class="simple">
+<li>object uid list</li>
+</ul>
+<div class="highlight-json"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;SetObjectsToBuffer&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;uids&quot;</span><span class="p">:[</span><span class="s2">&quot;obj01&quot;</span><span class="p">,</span> <span class="s2">&quot;obj02&quot;</span><span class="p">],</span>
+    <span class="nt">&quot;toBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/objsBuffer&quot;</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<ul class="simple">
+<li>refer object by id</li>
+</ul>
+<div class="highlight-json"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;SetObjectsToBuffer&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;dg23dvw41hrdve&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;toBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/objsBuffer&quot;</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="setbuffervalue">
+<h2>SetBufferValue<a class="headerlink" href="#setbuffervalue" title="Permalink to this headline">¶</a></h2>
+<p>Assign value to buffer.</p>
+<table border="1" class="docutils" id="id5">
+<caption><span class="caption-text"><strong>Parameters</strong></span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="19%" />
+<col width="16%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>toBuffer</td>
+<td>Yes</td>
+<td>target buffer path</td>
+</tr>
+<tr class="row-odd"><td>value</td>
+<td>Yes</td>
+<td>value to be set</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<ul class="simple">
+<li>empty buffer</li>
+</ul>
+<div class="highlight-json"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;cmd&quot;</span><span class="p">:</span> <span class="s2">&quot;SetBufferValue&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;toBuffer&quot;</span><span class="p">:{</span><span class="nt">&quot;ObjectManager&quot;</span><span class="p">:</span><span class="s2">&quot;RunBuffer/buffer1&quot;</span><span class="p">},</span>
+    <span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="s2">&quot;&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="object_control.html" class="btn btn-neutral float-right" title="Object Control" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="object.html" class="btn btn-neutral" title="Base Class：Object" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, uinnova.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

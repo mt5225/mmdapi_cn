@@ -8,7 +8,7 @@ API Reference
 
     object
     buffer
-    control
+    object_control
     selection
     resource
     effect
