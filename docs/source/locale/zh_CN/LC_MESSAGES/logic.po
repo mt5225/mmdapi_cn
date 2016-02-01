@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/logic.rst:2
+msgid "Logic"
+msgstr ""
+
+#: ../../source/logic.rst:5
+msgid "RegTimer"
+msgstr ""
+
+#: ../../source/logic.rst:7
+msgid "Timer register."
+msgstr ""
+
+#: ../../source/logic.rst ../../source/logic.rst:42
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "name"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Name of timer"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "time"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Timeout in seconds"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "loop"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "If loop"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "cmds"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Command to be executed at timeout"
+msgstr ""
+
+#: ../../source/logic.rst:19 ../../source/logic.rst:46
+#: ../../source/logic.rst:72
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/logic.rst:21
+msgid "Set a snapshot"
+msgstr ""
+
+#: ../../source/logic.rst:38
+msgid "UnregTimer"
+msgstr ""
+
+#: ../../source/logic.rst:40
+msgid "Unregister timer."
+msgstr ""
+
+#: ../../source/logic.rst:44
+msgid "No Parameters."
+msgstr ""
+
+#: ../../source/logic.rst:59
+msgid "CheckBoolean"
+msgstr ""
+
+#: ../../source/logic.rst:61
+msgid "Pass boolean value from buffer, then run command depends on boolean value."
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "fromBuffer"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Buffer to get boolean value"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "trueCmds"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Command to run if ``true``"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "falseCmds"
+msgstr ""
+
+#: ../../source/logic.rst:1
+msgid "Command to run if ``false``"
+msgstr ""
+

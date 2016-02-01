@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/web.rst:2
+msgid "Web"
+msgstr ""
+
+#: ../../source/web.rst:5
+msgid "OpenUrl"
+msgstr ""
+
+#: ../../source/web.rst:7
+msgid ""
+"Open webpage, same as run javascript function window.open, only valid in "
+"browser."
+msgstr ""
+
+#: ../../source/web.rst ../../source/web.rst:127
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "url"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "URL to be open"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "urlBuffer"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Get URL from urlBuffer"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "param"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid ""
+"Same as parameters used in javascript function window.open for instance： "
+"``height=100, width=400, toolbar =no, menubar=no, scrollbars=no, "
+"resizable=no, location=no, status=no``"
+msgstr ""
+
+#: ../../source/web.rst:21 ../../source/web.rst:60 ../../source/web.rst:92
+#: ../../source/web.rst:131 ../../source/web.rst:184
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/web.rst:44
+msgid "UrlWindow"
+msgstr ""
+
+#: ../../source/web.rst:46
+msgid "Open browser window with given URL, only valid in browser."
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "title"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Window title"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "titleBuffer"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Get window title from buffer"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "width"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Window width"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "height"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Window height"
+msgstr ""
+
+#: ../../source/web.rst:76
+msgid "HtmlWindow"
+msgstr ""
+
+#: ../../source/web.rst:78 ../../source/web.rst:145
+msgid "Open browser windows and display given html, only valid in browser."
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "html"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Data in html format"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "htmlBuffer"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Get html data from urlBuffer"
+msgstr ""
+
+#: ../../source/web.rst:94
+msgid "Display HTML"
+msgstr ""
+
+#: ../../source/web.rst:107
+msgid "Display HTML from buffer"
+msgstr ""
+
+#: ../../source/web.rst:123
+msgid "HideWindow"
+msgstr ""
+
+#: ../../source/web.rst:125
+msgid "Close window opened by UrlWindow or HtmlWindow, only valid in browser."
+msgstr ""
+
+#: ../../source/web.rst:129
+msgid "No Parameters."
+msgstr ""
+
+#: ../../source/web.rst:143
+msgid "ExecuteHtmlInterface"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "interfaceName"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "javascript method name"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "fromBuffer"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Set buffer content(object only) to javascript method"
+msgstr ""
+
+#: ../../source/web.rst:4
+msgid "Data structure pass to javascript method"
+msgstr ""
+
+#: ../../source/web.rst:28
+msgid "Use exArguments to pass additional values"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "exArguments"
+msgstr ""
+
+#: ../../source/web.rst:1
+msgid "Additional arguments in array"
+msgstr ""
+

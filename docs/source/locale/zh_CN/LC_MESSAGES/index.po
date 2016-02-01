@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/index.rst:2
+msgid "Welcome to MMD API's documentation!"
+msgstr "欢迎访问MMD API文档"
+
+#: ../../source/index.rst:5
+msgid "Introduce"
+msgstr "简介"
+
+#: ../../source/index.rst:7
+msgid "This documentation discuss the MMD API, the following topic are included:"
+msgstr "本文档介绍MMD API的使用方式，消息格式及代码示例，包括"
+
+#: ../../source/index.rst:9
+msgid ":ref:`API Concepts <api-concepts-label>`"
+msgstr "MMD API概念介绍"
+
+#: ../../source/index.rst:10
+msgid ":ref:`API Reference <api-reference-label>`"
+msgstr "API 参考"
+
+#: ../../source/index.rst:13
+msgid "Contents"
+msgstr "内容"
+

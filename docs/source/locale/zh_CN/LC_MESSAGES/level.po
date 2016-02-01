@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/level.rst:2
+msgid "Scene Level"
+msgstr ""
+
+#: ../../source/level.rst:5
+msgid "ChangeObjectLevel"
+msgstr ""
+
+#: ../../source/level.rst:7
+msgid "Change scene level to given object."
+msgstr ""
+
+#: ../../source/level.rst:10 ../../source/level.rst:36
+#: ../../source/level.rst:62
+msgid "only supports one object as input."
+msgstr ""
+
+#: ../../source/level.rst
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid ":ref:`Object Reference <api-object-label>`"
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "Object Reference"
+msgstr ""
+
+#: ../../source/level.rst:18 ../../source/level.rst:44
+#: ../../source/level.rst:70 ../../source/level.rst:93
+#: ../../source/level.rst:116
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/level.rst:31
+msgid "GetCurrentObjectLevel"
+msgstr ""
+
+#: ../../source/level.rst:33
+msgid "Get current level of given object."
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "toBuffer"
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "Buffer to store command result."
+msgstr ""
+
+#: ../../source/level.rst:57
+msgid "GetCurrentObjectLevelClass"
+msgstr ""
+
+#: ../../source/level.rst:59
+msgid "Get class name of current level."
+msgstr ""
+
+#: ../../source/level.rst:83
+msgid "GetCurrentObjectLevelClassId"
+msgstr ""
+
+#: ../../source/level.rst:85
+msgid "Get ClassId of current level, note: classId is a number."
+msgstr ""
+
+#: ../../source/level.rst:106
+msgid "SetExpandFloorPlanHeight"
+msgstr ""
+
+#: ../../source/level.rst:108
+msgid "Set floor distance while expanded."
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "height"
+msgstr ""
+
+#: ../../source/level.rst:1
+msgid "Floor distance in meters."
+msgstr ""
+

@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'MMD API'
-copyright = u'2016, uinnova'
+copyright = u'2016, uinnova technology'
 author = u'uinnova'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -171,10 +171,10 @@ html_static_path = ['_static']
 #html_show_sourcelink = True
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = True
+html_show_copyright = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -357,8 +357,6 @@ import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
-# html_context = {
-#     'css_files': [
-#         '_static/theme_overrides.css',  # overrides for wide tables in RTD theme
-#         ],
-#     }
+# for Chinese support
+locale_dirs = ['locale/']
+gettext_compact = False

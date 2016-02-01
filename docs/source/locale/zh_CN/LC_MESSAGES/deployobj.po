@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/deployobj.rst:2
+msgid "Deploy Object"
+msgstr ""
+
+#: ../../source/deployobj.rst:7
+msgid "Deploy"
+msgstr ""
+
+#: ../../source/deployobj.rst:9
+msgid "Specify model set available in current environment."
+msgstr ""
+
+#: ../../source/deployobj.rst
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "enable"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "``true``"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "If ``true``, enable, if ``false``, disable"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "item"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "Array of model IDs"
+msgstr ""
+
+#: ../../source/deployobj.rst:18 ../../source/deployobj.rst:58
+#: ../../source/deployobj.rst:83 ../../source/deployobj.rst:106
+#: ../../source/deployobj.rst:129 ../../source/deployobj.rst:166
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/deployobj.rst:20
+msgid "Deploy Model"
+msgstr ""
+
+#: ../../source/deployobj.rst:33
+msgid "Disable"
+msgstr ""
+
+#: ../../source/deployobj.rst:46
+msgid "SetDragPlacementParamInDeploy"
+msgstr ""
+
+#: ../../source/deployobj.rst:48
+msgid "Effect setting during drag and drop."
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "absorbPlacement"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "If object being drag can be attached by target object automatically."
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "absorbNormal"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "If object being drag align to normal line of target object automatically."
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "absorbPivot"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "If object being drag align to axis line of target object automatically."
+msgstr ""
+
+#: ../../source/deployobj.rst:73
+msgid "GetDeployObjects"
+msgstr ""
+
+#: ../../source/deployobj.rst:75
+msgid "Get deploy objects and save to buffer."
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "toBuffer"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "Buffer to store objects"
+msgstr ""
+
+#: ../../source/deployobj.rst:96
+msgid "GetDeployToJson"
+msgstr ""
+
+#: ../../source/deployobj.rst:98 ../../source/deployobj.rst:158
+msgid "Get deploy objects and save to buffer in JSON format."
+msgstr ""
+
+#: ../../source/deployobj.rst:119
+msgid "SetDeployFromJson"
+msgstr ""
+
+#: ../../source/deployobj.rst:121
+msgid "Deploy objects from JSON"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "json"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "JSON data"
+msgstr ""
+
+#: ../../source/deployobj.rst:156
+msgid "ClearDeployObjects"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "Default"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid "destroyObjects"
+msgstr ""
+
+#: ../../source/deployobj.rst:1
+msgid ""
+"Clear objects in scene, if ``true``, will clear objects both in Deploy "
+"module and scene, if ``false``, only clear objects in Deploy module, and "
+"keep objects in scene."
+msgstr ""
+

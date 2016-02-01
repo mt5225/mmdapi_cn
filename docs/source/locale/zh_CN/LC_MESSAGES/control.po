@@ -1,0 +1,863 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/control.rst:2
+msgid "Control"
+msgstr ""
+
+#: ../../source/control.rst:7
+msgid "CreatePlacement"
+msgstr ""
+
+#: ../../source/control.rst:9
+msgid "Create object."
+msgstr ""
+
+#: ../../source/control.rst
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Default"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "uid"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "UserID"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "bundleId"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Model ID"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "parentId"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Current floor or park"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Parent Object ID."
+msgstr ""
+
+#: ../../source/control.rst:4
+msgid "Only supports floor or park as parent."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "parentUid"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Parent Object UID."
+msgstr ""
+
+#: ../../source/control.rst:4
+msgid "Only supports floor or park as parent"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "transformProxyId"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Reference Object ID, if specified, pos, rot and scl are relative to "
+"reference object"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "transformProxyUid"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Reference Object UID, if specified, pos, rot and scl are relative to "
+"reference object"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "transformProxyFromBuffer"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Reference Object from Buffer, if specified, pos, rot and scl are relative"
+" to reference object"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "pos"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "``[0,0,0]``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Object Position"
+msgstr ""
+
+#: ../../source/control.rst:4
+msgid ""
+"if transformProxy is specified, pos is relative to transformProxy object,"
+" otherwise is relative to parent object."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "rot"
+msgstr ""
+
+#: ../../source/control.rst:2
+msgid ""
+"Object rotation in 3-element tuple as Euler angles, use alternatively "
+"with quat, unit: degree."
+msgstr ""
+
+#: ../../source/control.rst:5 ../../source/control.rst:6
+msgid ""
+"if transformProxy is specified, rot will based on transformProxy object "
+"coordinate, otherwise based on parent object."
+msgstr ""
+
+#: ../../source/control.rst:6
+msgid "see :ref:`Euler Angles <euler-label>`"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "quat"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "``[0,0,0,1]``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Object rotation specified by a 4-element tuple, use alternatively with "
+"ror.Any rotation can be determinate by a single axis with rotation angle."
+" Give a axis (x, y, z) and a angle θ, rotation can be calculated as："
+msgstr ""
+
+#: ../../source/control.rst:3
+msgid "``quat = [ x*sin(θ/2), y*sin(θ/2),z*sin(θ/2), cos(θ/2)]``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "scl"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "``[1,1,1]``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Scale Factor"
+msgstr ""
+
+#: ../../source/control.rst:4
+msgid ""
+"if transformProxy is specified, scale factor is relative to "
+"transformProxy object, otherwise is relative to parent object."
+msgstr ""
+
+#: ../../source/control.rst:56 ../../source/control.rst:100
+#: ../../source/control.rst:129 ../../source/control.rst:186
+#: ../../source/control.rst:238 ../../source/control.rst:263
+#: ../../source/control.rst:287 ../../source/control.rst:332
+#: ../../source/control.rst:411 ../../source/control.rst:474
+#: ../../source/control.rst:501 ../../source/control.rst:526
+#: ../../source/control.rst:569 ../../source/control.rst:595
+#: ../../source/control.rst:619
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/control.rst:73
+msgid "**Euler Angles**"
+msgstr ""
+
+#: ../../source/control.rst:79
+msgid ""
+"Fig 1. Euler angles is essentially rotation against axis x,y and z while "
+"y is the vertical axis."
+msgstr ""
+
+#: ../../source/control.rst:85
+msgid "CreatePlacementFromChildren"
+msgstr ""
+
+#: ../../source/control.rst:87
+msgid "Create object from model."
+msgstr ""
+
+#: ../../source/control.rst:90
+msgid ""
+"name conversion for object created by this method is ``{object "
+"uid}_{model name}``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ":ref:`Object Reference <api-object-label>`"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Object Reference"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "childNameList"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Array of object names to be created from model"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "toBuffer"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "uffer name which objects is saved to"
+msgstr ""
+
+#: ../../source/control.rst:115
+msgid "GetObjectsByCondition"
+msgstr ""
+
+#: ../../source/control.rst:117
+msgid "Get objects by search criteria."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "condition"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Search criteria"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "fromBuffer"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Specify buffer as search scope"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "underLevelUid"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Specify parent object by uid, which will includes all children objects. "
+"Parent object must be floor or park."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "underLevelBuffer"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Specify parent object by buffer, which will includes all children "
+"objects. Parent object must be floor or park."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Save search results to buffer"
+msgstr ""
+
+#: ../../source/control.rst:175
+msgid "Show"
+msgstr ""
+
+#: ../../source/control.rst:177
+msgid "Set object visibility."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "enable"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "``True`` or ``False``"
+msgstr ""
+
+#: ../../source/control.rst:200
+msgid "SetPickEnable"
+msgstr ""
+
+#: ../../source/control.rst:202
+msgid "Set whether object can be '**picked**'."
+msgstr ""
+
+#: ../../source/control.rst:223
+msgid "SetPosition"
+msgstr ""
+
+#: ../../source/control.rst:225
+msgid "Set object position."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Coordinate, for instance，``[0,0,0]``"
+msgstr ""
+
+#: ../../source/control.rst:4
+msgid "Coordinate is relative to current floor or park"
+msgstr ""
+
+#: ../../source/control.rst:252
+msgid "SetScale"
+msgstr ""
+
+#: ../../source/control.rst:254
+msgid "Set object scale."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "scale"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "scale value, for instance, ``[2,2,2]``"
+msgstr ""
+
+#: ../../source/control.rst:277
+msgid "Sitdown"
+msgstr ""
+
+#: ../../source/control.rst:279
+msgid "Place object on the floor."
+msgstr ""
+
+#: ../../source/control.rst:300
+msgid "MoveTo"
+msgstr ""
+
+#: ../../source/control.rst:302
+msgid "Move object to given position with given speed."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "fromPos"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "current position"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Start position, relative to current floor or park"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "End position, relative to current floor or park"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "targetUid"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "End position by object ID"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "time"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Duration in seconds, use with 'speed' alternatively"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "speed"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Moving speed in meter per second, use with 'time' alternatively"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "delay"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "delay in seconds"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "easeType"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "linear"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Start and/or ending mode, click :ref:`here <ease-mode-label>` for list of"
+" ease modes"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "loopType"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "none"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Repeat mode can be one of:"
+msgstr ""
+
+#: ../../source/control.rst:4
+msgid "none: do not repeat"
+msgstr ""
+
+#: ../../source/control.rst:5
+msgid "loop: repeat"
+msgstr ""
+
+#: ../../source/control.rst:6
+msgid ""
+"pingPong: move from start to end , then move from end to start, repeat "
+"the process"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "orientToPath"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Align with moving direction"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "autoCreate"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Create new object and move it"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "autoCreate/enable"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Sub parameter of autoCreate, valid if autoCreate is enabled"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "autoCreate/bundleId"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Sub parameter of autoCreate，specify model ID while create new moving "
+"object, Valid if autoCreate is enabled"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "autoCreate/pos"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Sub parameter of autoCreate: object position, relative to current floor "
+"or park. Valid if autoCreate is enabled"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "autoCreate/targetUid"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Sub parameter of autoCreate，set coordinate of new object by existing "
+"object uid. Valid if autoCreate is enabled"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "autoCreate/props"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid ""
+"Sub parameter of autoCreate，set properties of new object. Valid if "
+"autoCreate is enabled."
+msgstr ""
+
+#: ../../source/control.rst:380
+msgid "MovePath"
+msgstr ""
+
+#: ../../source/control.rst:382
+msgid "Set Move Path."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "pointPath"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "A set of positions as moving path, relative to floor or park."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "objectPath"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "A set of object uid as moving path"
+msgstr ""
+
+#: ../../source/control.rst:459
+msgid "Attach"
+msgstr ""
+
+#: ../../source/control.rst:461
+msgid "Attach to object."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "targetId"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Set target object by ID"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Set target object by UID"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "targetFromBuffer"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Set target object from buffer"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Offset to target object"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Rotation relative to target object"
+msgstr ""
+
+#: ../../source/control.rst:490
+msgid "Detach"
+msgstr ""
+
+#: ../../source/control.rst:492
+msgid "Detach from object."
+msgstr ""
+
+#: ../../source/control.rst:514
+msgid "AutoRotate"
+msgstr ""
+
+#: ../../source/control.rst:516
+msgid "Rotate object"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "180"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Rotate speed by degree per second"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "``true``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Stop auto rotating if set to false"
+msgstr ""
+
+#: ../../source/control.rst:528
+msgid "Start auto rotating"
+msgstr ""
+
+#: ../../source/control.rst:538
+msgid "Stop auto rotating"
+msgstr ""
+
+#: ../../source/control.rst:552
+msgid "Rotate"
+msgstr ""
+
+#: ../../source/control.rst:554
+msgid "Rotate object by a given angle."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "A 3-element array as rotation angle. unit = degree"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "space"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "self"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "rotate against world or itself. Can be one of :"
+msgstr ""
+
+#: ../../source/control.rst:3
+msgid "world: rotate against world."
+msgstr ""
+
+#: ../../source/control.rst:4
+msgid "self: rotate as itself."
+msgstr ""
+
+#: ../../source/control.rst:584
+msgid "Destroy"
+msgstr ""
+
+#: ../../source/control.rst:586
+msgid "Destroy object."
+msgstr ""
+
+#: ../../source/control.rst:608
+msgid "CreateTimerObject"
+msgstr ""
+
+#: ../../source/control.rst:610
+msgid "Create timer object, can be used as data source, *invisible* in UI."
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Buffer to store time object"
+msgstr ""
+
+#: ../../source/control.rst:631
+msgid "**Properties of timer object**"
+msgstr ""
+
+#: ../../source/control.rst
+msgid "**Properties of current time**"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "YearMonthDay"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "return string as ``yyyy.MM.dd``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "HourMinuteSecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "return string as ``HH:mm:ss``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "HourMinuteSecondMillisecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "return string as ``HH:mm:ss:ffff``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "YearMonthDayHourMinuteSecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "return string as ``yyyy.MM.dd HH:mm:ss``"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Year"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Year of YearMonthDayHourMinuteSecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Month"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Month of YearMonthDayHourMinuteSecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Day"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Day of YearMonthDayHourMinuteSecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Hour"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Hour of YearMonthDayHourMinuteSecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Minute"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Minute of YearMonthDayHourMinuteSecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Second"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Second of YearMonthDayHourMinuteSecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Millisecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Millisecond of HourMinuteSecondMillisecond"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "DayOfYear"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Day of year"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "DayOfWeek"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Day of week，[0-6] while 0 is Sunday"
+msgstr ""
+
+#: ../../source/control.rst
+msgid "**Properties of total running time**"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "TimerYear"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Year of total running time"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "TimerAllYear"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Same as TimerYear"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "TimerMonth"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Month mod year"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "TimerAllMonth"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Total month"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "TimerDay"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Day mod month"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "TimerAllDay"
+msgstr ""
+
+#: ../../source/control.rst:1
+msgid "Total day"
+msgstr ""
+

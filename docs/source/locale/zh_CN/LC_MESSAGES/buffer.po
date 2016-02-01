@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/buffer.rst:2
+msgid "Buffer"
+msgstr ""
+
+#: ../../source/buffer.rst:5
+msgid "CopyBuffer"
+msgstr ""
+
+#: ../../source/buffer.rst:7
+msgid ""
+"Copy content of source buffer to target buffer, content in target buffer "
+"will be overwrote."
+msgstr ""
+
+#: ../../source/buffer.rst:10 ../../source/buffer.rst:59
+#: ../../source/buffer.rst:87
+msgid "This command only apply to object buffers"
+msgstr ""
+
+#: ../../source/buffer.rst
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "fromBuffer"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "source buffer path"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "toBuffer"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "target buffer path"
+msgstr ""
+
+#: ../../source/buffer.rst:21 ../../source/buffer.rst:68
+#: ../../source/buffer.rst:97 ../../source/buffer.rst:124
+#: ../../source/buffer.rst:174
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/buffer.rst:23
+msgid "copy buffer by full path"
+msgstr ""
+
+#: ../../source/buffer.rst:35
+msgid "copy buffer by relative path"
+msgstr ""
+
+#: ../../source/buffer.rst:46
+msgid "**NOTE**"
+msgstr ""
+
+#: ../../source/buffer.rst:48
+msgid "``buffer1`` same as  ``{\"ObjectManager\":\"RunBuffer/buffer1\"}``"
+msgstr ""
+
+#: ../../source/buffer.rst:49
+msgid "``buffer2`` same as ``{\"ObjectManager\":\"RunBuffer/buffer2\"}``"
+msgstr ""
+
+#: ../../source/buffer.rst:54
+msgid "MergeBuffer"
+msgstr ""
+
+#: ../../source/buffer.rst:56
+msgid ""
+"Copy content of source buffer to target buffer, content in target buffer "
+"will be reserved."
+msgstr ""
+
+#: ../../source/buffer.rst:82
+msgid "SubtractBuffer"
+msgstr ""
+
+#: ../../source/buffer.rst:84
+msgid ""
+"Delete objects in target buffer which are identical to objects in source "
+"buffer."
+msgstr ""
+
+#: ../../source/buffer.rst:111
+msgid "SetObjectsToBuffer"
+msgstr ""
+
+#: ../../source/buffer.rst:113
+msgid "Assign object to buffer."
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid ":ref:`Object Reference <api-object-label>`"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "Object Reference"
+msgstr ""
+
+#: ../../source/buffer.rst:126
+msgid "refer object by uid"
+msgstr ""
+
+#: ../../source/buffer.rst:137
+msgid "object uid list"
+msgstr ""
+
+#: ../../source/buffer.rst:148
+msgid "refer object by id"
+msgstr ""
+
+#: ../../source/buffer.rst:162
+msgid "SetBufferValue"
+msgstr ""
+
+#: ../../source/buffer.rst:164
+msgid "Assign value to buffer."
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "value"
+msgstr ""
+
+#: ../../source/buffer.rst:1
+msgid "value to be set"
+msgstr ""
+
+#: ../../source/buffer.rst:176
+msgid "empty buffer"
+msgstr ""
+

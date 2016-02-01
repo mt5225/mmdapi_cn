@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/object.rst:4
+msgid "ObjectCommand"
+msgstr ""
+
+#: ../../source/object.rst:6
+msgid ""
+"Base Class, commands which inherits from ObjectCommand will have "
+"following methods build-in."
+msgstr ""
+
+#: ../../source/object.rst
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/object.rst:12
+msgid "Name"
+msgstr ""
+
+#: ../../source/object.rst:13
+msgid "Required"
+msgstr ""
+
+#: ../../source/object.rst:14
+msgid "Description"
+msgstr ""
+
+#: ../../source/object.rst:15
+msgid "**id**"
+msgstr ""
+
+#: ../../source/object.rst:16 ../../source/object.rst:19
+#: ../../source/object.rst:22 ../../source/object.rst:25
+#: ../../source/object.rst:28 ../../source/object.rst:31
+msgid "No"
+msgstr ""
+
+#: ../../source/object.rst:17
+msgid "Get object by ID"
+msgstr ""
+
+#: ../../source/object.rst:18
+msgid "**uid**"
+msgstr ""
+
+#: ../../source/object.rst:20
+msgid "Get object by UID, e.g. user define ID"
+msgstr ""
+
+#: ../../source/object.rst:21
+msgid "**ids**"
+msgstr ""
+
+#: ../../source/object.rst:23
+msgid "Get objects by ID array"
+msgstr ""
+
+#: ../../source/object.rst:24
+msgid "**uids**"
+msgstr ""
+
+#: ../../source/object.rst:26
+msgid "Get objects by UID array"
+msgstr ""
+
+#: ../../source/object.rst:27
+msgid "**fromBuffer**"
+msgstr ""
+
+#: ../../source/object.rst:29
+msgid "Get content from buffer, would be one or more objects, or command results"
+msgstr ""
+
+#: ../../source/object.rst:30
+msgid "**toBuffer**"
+msgstr ""
+
+#: ../../source/object.rst:32
+msgid "Buffer to save command results"
+msgstr ""
+

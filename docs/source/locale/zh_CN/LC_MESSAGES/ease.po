@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/ease.rst:4
+msgid "Ease Mode List"
+msgstr ""
+
+#: ../../source/ease.rst:6
+msgid "easeInQuad"
+msgstr ""
+
+#: ../../source/ease.rst:7
+msgid "easeOutQuad"
+msgstr ""
+
+#: ../../source/ease.rst:8
+msgid "easeInOutQuad"
+msgstr ""
+
+#: ../../source/ease.rst:9
+msgid "easeInCubic"
+msgstr ""
+
+#: ../../source/ease.rst:10
+msgid "easeOutCubic"
+msgstr ""
+
+#: ../../source/ease.rst:11
+msgid "easeInOutCubic"
+msgstr ""
+
+#: ../../source/ease.rst:12
+msgid "easeInQuart"
+msgstr ""
+
+#: ../../source/ease.rst:13
+msgid "easeOutQuart"
+msgstr ""
+
+#: ../../source/ease.rst:14
+msgid "easeInOutQuart"
+msgstr ""
+
+#: ../../source/ease.rst:15
+msgid "easeInQuint"
+msgstr ""
+
+#: ../../source/ease.rst:16
+msgid "easeOutQuint"
+msgstr ""
+
+#: ../../source/ease.rst:17
+msgid "easeInOutQuint"
+msgstr ""
+
+#: ../../source/ease.rst:18
+msgid "easeInSine"
+msgstr ""
+
+#: ../../source/ease.rst:19
+msgid "easeOutSine"
+msgstr ""
+
+#: ../../source/ease.rst:20
+msgid "easeInOutSine"
+msgstr ""
+
+#: ../../source/ease.rst:21
+msgid "easeInExpo"
+msgstr ""
+
+#: ../../source/ease.rst:22
+msgid "easeOutExpo"
+msgstr ""
+
+#: ../../source/ease.rst:23
+msgid "easeInOutExpo"
+msgstr ""
+
+#: ../../source/ease.rst:24
+msgid "easeInCirc"
+msgstr ""
+
+#: ../../source/ease.rst:25
+msgid "easeOutCirc"
+msgstr ""
+
+#: ../../source/ease.rst:26
+msgid "easeInOutCirc"
+msgstr ""
+
+#: ../../source/ease.rst:27
+msgid "linear"
+msgstr ""
+
+#: ../../source/ease.rst:28
+msgid "spring"
+msgstr ""
+
+#: ../../source/ease.rst:29
+msgid "easeInBounce"
+msgstr ""
+
+#: ../../source/ease.rst:30
+msgid "easeOutBounce"
+msgstr ""
+
+#: ../../source/ease.rst:31
+msgid "easeInOutBounce"
+msgstr ""
+
+#: ../../source/ease.rst:32
+msgid "easeInBack"
+msgstr ""
+
+#: ../../source/ease.rst:33
+msgid "easeOutBack"
+msgstr ""
+
+#: ../../source/ease.rst:34
+msgid "easeInOutBack"
+msgstr ""
+
+#: ../../source/ease.rst:35
+msgid "easeInElastic"
+msgstr ""
+
+#: ../../source/ease.rst:36
+msgid "easeOutElastic"
+msgstr ""
+
+#: ../../source/ease.rst:37
+msgid "easeInOutElastic"
+msgstr ""
+
+#: ../../source/ease.rst:38
+msgid "punch"
+msgstr ""
+

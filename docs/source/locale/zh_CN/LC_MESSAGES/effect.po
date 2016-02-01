@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/effect.rst:2
+msgid "Effect"
+msgstr ""
+
+#: ../../source/effect.rst:7
+msgid "SetTransparency"
+msgstr ""
+
+#: ../../source/effect.rst:9
+msgid "Set transparency of given object."
+msgstr ""
+
+#: ../../source/effect.rst
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid ":ref:`Object Reference <api-object-label>`"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Object Reference"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "trans"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Value range ``[0-1]``"
+msgstr ""
+
+#: ../../source/effect.rst:3
+msgid "1: 100% transparent"
+msgstr ""
+
+#: ../../source/effect.rst:4
+msgid "0: No transparency"
+msgstr ""
+
+#: ../../source/effect.rst:22 ../../source/effect.rst:50
+#: ../../source/effect.rst:83 ../../source/effect.rst:124
+#: ../../source/effect.rst:149 ../../source/effect.rst:179
+#: ../../source/effect.rst:228
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/effect.rst:24
+msgid "Set Object Transparency"
+msgstr ""
+
+#: ../../source/effect.rst:38
+msgid "SetColor"
+msgstr ""
+
+#: ../../source/effect.rst:40
+msgid "Set object color."
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "color"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Color in RGB，for instance, red is ``[255, 0, 0]``"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "ratio"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Effect ratio, range from 0 to 1"
+msgstr ""
+
+#: ../../source/effect.rst:52
+msgid "Set Object Color"
+msgstr ""
+
+#: ../../source/effect.rst:67
+msgid "Fade"
+msgstr ""
+
+#: ../../source/effect.rst:69
+msgid "Fade effect."
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Default"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "start"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Start transparent value, range ``[0-1]``"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "end"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "End transparent value,  range ``[0-1]``"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "time"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Effect duration in seconds"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "endAutoRelease"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "``true``"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "if resume object status after effect end"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "enable"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Enable fading effect"
+msgstr ""
+
+#: ../../source/effect.rst:85
+msgid "Fading Effect"
+msgstr ""
+
+#: ../../source/effect.rst:99 ../../source/effect.rst:245
+msgid "Disable Effect"
+msgstr ""
+
+#: ../../source/effect.rst:113
+msgid "FadeIn"
+msgstr ""
+
+#: ../../source/effect.rst:115
+msgid "Fade In Effect."
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Effect duration in seconds."
+msgstr ""
+
+#: ../../source/effect.rst:138
+msgid "FadeOut"
+msgstr ""
+
+#: ../../source/effect.rst:140
+msgid "Fade Out Effect."
+msgstr ""
+
+#: ../../source/effect.rst:163
+msgid "Flash"
+msgstr ""
+
+#: ../../source/effect.rst:165
+msgid "Flash effect."
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Start transparent value"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "End transparent value"
+msgstr ""
+
+#: ../../source/effect.rst:181
+msgid "Flash Effect"
+msgstr ""
+
+#: ../../source/effect.rst:195
+msgid "Disable Flash"
+msgstr ""
+
+#: ../../source/effect.rst:211
+msgid "ColorFade"
+msgstr ""
+
+#: ../../source/effect.rst:213
+msgid "ColorFade effect."
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Color used in effect"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Color density at the start, value range ``[0-1]``"
+msgstr ""
+
+#: ../../source/effect.rst:1
+msgid "Color density at the end, value range ``[0-1]``"
+msgstr ""
+
+#: ../../source/effect.rst:230
+msgid "Change object to red in one second"
+msgstr ""
+

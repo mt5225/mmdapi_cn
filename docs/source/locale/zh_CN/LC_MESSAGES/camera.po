@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/camera.rst:2
+msgid "Camera"
+msgstr ""
+
+#: ../../source/camera.rst:7
+msgid "SwitchCameraTo3D"
+msgstr ""
+
+#: ../../source/camera.rst:9
+msgid "Viewpoint switch between 3D and 2D."
+msgstr ""
+
+#: ../../source/camera.rst:12
+msgid "Same as 3D/2D switch button in control panel"
+msgstr ""
+
+#: ../../source/camera.rst ../../source/camera.rst:28
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Default"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "enable"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "``true``"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "If ``true``, switch to 3D, if ``false``, switch to 2D"
+msgstr ""
+
+#: ../../source/camera.rst:23
+msgid "CameraFitToSelection"
+msgstr ""
+
+#: ../../source/camera.rst:25
+msgid "Fit to selected object, if no object is selected, fit to current layer."
+msgstr ""
+
+#: ../../source/camera.rst:30
+msgid "No parameters."
+msgstr ""
+
+#: ../../source/camera.rst:33 ../../source/camera.rst:59
+#: ../../source/camera.rst:95 ../../source/camera.rst:129
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/camera.rst:45
+msgid "SetOrbitCameraParam"
+msgstr ""
+
+#: ../../source/camera.rst:47
+msgid "Camera parameters setting."
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "heightLimit"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "``[0,1500]``"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid ""
+"Height limit setting, take two array as input, first array as minimum "
+"height, second array as maxium height."
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "zoomLimit"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "``[0.1,1000]``"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid ""
+"Limits on back and froths moving through mouse wheel. take one array as "
+"input, first element in array sets closest distance to viewpoint, second "
+"viewpoint sets farthest distance from viewpoint."
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "farClipDistance"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "change with height attribute"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Far clip distance setting, for animation effects only"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "nearClipDistance"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Near clip distance setting, for animation effects only"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "smooth"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Flying camera in smooth mode, if set to false, camera will fly straight."
+msgstr ""
+
+#: ../../source/camera.rst:76
+msgid "CameraFlyToBest"
+msgstr ""
+
+#: ../../source/camera.rst:78
+msgid "Fly to optimized viewpoint of given object."
+msgstr ""
+
+#: ../../source/camera.rst:81 ../../source/camera.rst:115
+msgid "Only accept one object as input"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid ":ref:`Object Reference <api-object-label>`"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Object Reference"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "time"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Fly time, in seconds"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "offset"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "``[0,0,0]``"
+msgstr ""
+
+#: ../../source/camera.rst:1
+msgid "Optimized viewpoint plus offset as camera location."
+msgstr ""
+
+#: ../../source/camera.rst:4
+msgid "Offset is calculated in world coordinate."
+msgstr ""
+
+#: ../../source/camera.rst:110
+msgid "CameraFitToBest"
+msgstr ""
+
+#: ../../source/camera.rst:112
+msgid "Move camera to optimized viewpoint of given object, no flying process."
+msgstr ""
+

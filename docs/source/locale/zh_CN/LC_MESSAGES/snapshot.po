@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/snapshot.rst:2 ../../source/snapshot.rst:7
+msgid "Snapshot"
+msgstr ""
+
+#: ../../source/snapshot.rst:9
+msgid "Get and save snapshot."
+msgstr ""
+
+#: ../../source/snapshot.rst ../../source/snapshot.rst:125
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "name"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "Name of snapshot"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "isSaveToServer"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "If save snapshot to server"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "isShowIn3D"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "If show snapshot in menu"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "jsonToBuffer"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "Save snapshot to buffer in json format"
+msgstr ""
+
+#: ../../source/snapshot.rst:21 ../../source/snapshot.rst:60
+#: ../../source/snapshot.rst:84 ../../source/snapshot.rst:108
+#: ../../source/snapshot.rst:130
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/snapshot.rst:23
+msgid "Set a snapshot"
+msgstr ""
+
+#: ../../source/snapshot.rst:35
+msgid "Get snapshot data and save to buffer"
+msgstr ""
+
+#: ../../source/snapshot.rst:49
+msgid "SnapshotRecoverByName"
+msgstr ""
+
+#: ../../source/snapshot.rst:51 ../../source/snapshot.rst:75
+#: ../../source/snapshot.rst:99
+msgid "Recover snapshot by name."
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "Snapshot name"
+msgstr ""
+
+#: ../../source/snapshot.rst:73
+msgid "SnapshotRecoverByJson"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "json"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "json data"
+msgstr ""
+
+#: ../../source/snapshot.rst:97 ../../source/snapshot.rst:121
+msgid "PlaySnapshotAnimByName"
+msgstr ""
+
+#: ../../source/snapshot.rst:1
+msgid "Name of animation"
+msgstr ""
+
+#: ../../source/snapshot.rst:123
+msgid "Stop snapshot animation."
+msgstr ""
+
+#: ../../source/snapshot.rst:127
+msgid "No Parameters."
+msgstr ""
+

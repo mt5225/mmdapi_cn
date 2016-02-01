@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/eventlist.rst:4
+msgid "Event List"
+msgstr ""
+
+#: ../../source/eventlist.rst:7
+msgid "MouseEvents"
+msgstr ""
+
+#: ../../source/eventlist.rst:9
+msgid "ClickObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:10
+msgid "DbClickObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:11
+msgid "RightClickObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:12
+msgid "RightDbClickObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:13
+msgid "LeftClickObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:14
+msgid "LeftDbClickObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:15
+msgid "RightClick"
+msgstr ""
+
+#: ../../source/eventlist.rst:16
+msgid "LeftClick"
+msgstr ""
+
+#: ../../source/eventlist.rst:17
+msgid "RightDbClick"
+msgstr ""
+
+#: ../../source/eventlist.rst:18
+msgid "LeftDbClick"
+msgstr ""
+
+#: ../../source/eventlist.rst:19
+msgid "OnMouseEnterObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:20
+msgid "OnMouseLeaveObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:21
+msgid "OnMouseEnterPlacemark"
+msgstr ""
+
+#: ../../source/eventlist.rst:22
+msgid "OnMouseLeavePlacemark"
+msgstr ""
+
+#: ../../source/eventlist.rst:25
+msgid "SelectionEvents"
+msgstr ""
+
+#: ../../source/eventlist.rst:27
+msgid "ChangedSelection"
+msgstr ""
+
+#: ../../source/eventlist.rst:28
+msgid "AddToSelection"
+msgstr ""
+
+#: ../../source/eventlist.rst:29
+msgid "RemoveFromSelection"
+msgstr ""
+
+#: ../../source/eventlist.rst:30
+msgid "RemoveLastFromSelection"
+msgstr ""
+
+#: ../../source/eventlist.rst:33
+msgid "ObjectLifeCycleEvents"
+msgstr ""
+
+#: ../../source/eventlist.rst:35
+msgid "CreateObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:36
+msgid "CreateObjectMoveTo"
+msgstr ""
+
+#: ../../source/eventlist.rst:37
+msgid "DestroyObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:38
+msgid "CreateDeployObject"
+msgstr ""
+
+#: ../../source/eventlist.rst:39
+msgid "DeployObjects"
+msgstr ""
+
+#: ../../source/eventlist.rst:42
+msgid "LayerChangeEvents"
+msgstr ""
+

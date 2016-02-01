@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/event.rst:2
+msgid "Event"
+msgstr ""
+
+#: ../../source/event.rst:9
+msgid "RegEvent"
+msgstr ""
+
+#: ../../source/event.rst:11
+msgid "Event Register."
+msgstr ""
+
+#: ../../source/event.rst:14
+msgid "Use id or uid for object reference"
+msgstr ""
+
+#: ../../source/event.rst
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Default"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "id"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Object id"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "uid"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Object uid(UserID)"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "condition"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Trigger condition"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "event"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid ""
+"Trigger event, to avoid conflict, use / to separate callbacks, for "
+"instance, AddToSelection/callBack1 see :ref:`Event List <event-list-"
+"label>`"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "priority"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "50"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Event with higher priority will be trigger first"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "cmds"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Callback commands"
+msgstr ""
+
+#: ../../source/event.rst:29 ../../source/event.rst:98
+#: ../../source/event.rst:129 ../../source/event.rst:160
+#: ../../source/event.rst:189
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/event.rst:81
+msgid "UnregEvent"
+msgstr ""
+
+#: ../../source/event.rst:83
+msgid "Unregister Event."
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Same as  event parameter in :ref:`RegEvent <regevent-label>`"
+msgstr ""
+
+#: ../../source/event.rst:4
+msgid ""
+"if no callback is specified, all callbacks under this event will be "
+"unregistered."
+msgstr ""
+
+#: ../../source/event.rst:114
+msgid "GetLastEventObj"
+msgstr ""
+
+#: ../../source/event.rst:116
+msgid "Get object associated with event and save to buffer."
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "toBuffer"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Target buffer"
+msgstr ""
+
+#: ../../source/event.rst:4
+msgid ""
+"object is save to ``{'ObjectManager':'RunBuffer/lastEventObj'}`` by "
+"system automatically"
+msgstr ""
+
+#: ../../source/event.rst:145
+msgid "RegIgnoreEvent"
+msgstr ""
+
+#: ../../source/event.rst:147
+msgid "Suppress events."
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Same as condition parameter in :ref:`RegEvent <regevent-label>`"
+msgstr ""
+
+#: ../../source/event.rst:1
+msgid "Same as event parameter in :ref:`RegEvent <regevent-label>`"
+msgstr ""
+
+#: ../../source/event.rst:4
+msgid ""
+"if no callback is specified, all callbacks under this event will be "
+"suppressed."
+msgstr ""
+
+#: ../../source/event.rst:174
+msgid "UnregIgnoreEvent"
+msgstr ""
+
+#: ../../source/event.rst:176
+msgid "Resume suppress events."
+msgstr ""
+

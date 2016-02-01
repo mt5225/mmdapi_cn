@@ -1,0 +1,638 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, uinnova technology
+# This file is distributed under the same license as the MMD API package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMD API 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 17:25-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../../source/ui.rst:2
+msgid "UI"
+msgstr ""
+
+#: ../../source/ui.rst:7
+msgid "ShowPanel"
+msgstr ""
+
+#: ../../source/ui.rst:9
+msgid "Show or hide setting panel."
+msgstr ""
+
+#: ../../source/ui.rst ../../source/ui.rst:712 ../../source/ui.rst:784
+#: ../../source/ui.rst:886
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Required"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "panel"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Yes"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Name of the panel, can be one of:"
+msgstr ""
+
+#: ../../source/ui.rst:3
+msgid "viewPointPanel： Viewpoint Panel"
+msgstr ""
+
+#: ../../source/ui.rst:4
+msgid "fuctionListPanel： Function List Panel"
+msgstr ""
+
+#: ../../source/ui.rst:5
+msgid "switch3dPanel： 2D-3D Switch Panel"
+msgstr ""
+
+#: ../../source/ui.rst:6
+msgid "effectPanel： Effect Panel"
+msgstr ""
+
+#: ../../source/ui.rst:7
+msgid "screenShotPanel： ScreenShot Panel"
+msgstr ""
+
+#: ../../source/ui.rst:8
+msgid "levelPanel： Floor Panel"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "enable"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Show or hide panel"
+msgstr ""
+
+#: ../../source/ui.rst:27 ../../source/ui.rst:51 ../../source/ui.rst:324
+#: ../../source/ui.rst:348 ../../source/ui.rst:377 ../../source/ui.rst:436
+#: ../../source/ui.rst:498 ../../source/ui.rst:547 ../../source/ui.rst:585
+#: ../../source/ui.rst:641 ../../source/ui.rst:717 ../../source/ui.rst:741
+#: ../../source/ui.rst:765 ../../source/ui.rst:789 ../../source/ui.rst:824
+#: ../../source/ui.rst:891 ../../source/ui.rst:915 ../../source/ui.rst:942
+msgid "**Example**"
+msgstr ""
+
+#: ../../source/ui.rst:41
+msgid "CreatePlacemarkTemplate"
+msgstr ""
+
+#: ../../source/ui.rst:43
+msgid "Create new UI panel."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "template"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Panel settings, see below sample code for details"
+msgstr ""
+
+#: ../../source/ui.rst:312
+msgid "CopyPlacemarkTemplate"
+msgstr ""
+
+#: ../../source/ui.rst:314
+msgid "Create new control by clone existing one."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "originName"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "The control panel to be cloned"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "newName"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Name of new control panel"
+msgstr ""
+
+#: ../../source/ui.rst:338
+msgid "DestroyPlacemarkTemplate"
+msgstr ""
+
+#: ../../source/ui.rst:340
+msgid "Delete Control."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "name"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Name of Control to be deleted."
+msgstr ""
+
+#: ../../source/ui.rst:361
+msgid "SetPlacemarkTemplateConfig"
+msgstr ""
+
+#: ../../source/ui.rst:363
+msgid "Modify Control configuration."
+msgstr ""
+
+#: ../../source/ui.rst:366
+msgid ""
+"this command will not modify look and feel of the control, to change "
+"control look and feel, please use command 'SetPlacemarkProperty'."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "path"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "List of properties to be modified, seperated by '/'"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "config"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Target value"
+msgstr ""
+
+#: ../../source/ui.rst:397
+msgid "CreatePlacemark"
+msgstr ""
+
+#: ../../source/ui.rst:399
+msgid "Placemark Creator."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Default"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid ":ref:`Object Reference <api-object-label>`"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Object Reference"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "templateName"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Name of the placemark template"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "placemarkId"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "No"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Name of the placemark"
+msgstr ""
+
+#: ../../source/ui.rst:5
+msgid ""
+"if placemark is created on the surface of object, placemarkId can be "
+"ignored. system will generate placemakrkId automatically using name "
+"conversion: ``{Object uid}_{Template Name}``"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "type"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Screen"
+msgstr ""
+
+#: ../../source/ui.rst:2
+msgid "coordinate type of UI, can of one of:"
+msgstr ""
+
+#: ../../source/ui.rst:2
+msgid ""
+"Screen：Placemark is created under screen coordinate, so it will not "
+"change during camera zoom in/zoom out"
+msgstr ""
+
+#: ../../source/ui.rst:3
+msgid ""
+"Plane：Placemark is created under 3D coordinate, so it could changes sizes"
+" with movement of camera"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "scale"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "[0.2,0.2,0.2]"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "placemark scale, used to control sizes of placemark"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "presetPos"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid ""
+"placemark position. if placemark type is 'Plane', use (x,y,z) as "
+"coordinate, if placemark type is 'screen'， use (x,y) as coordinate."
+msgstr ""
+
+#: ../../source/ui.rst:4
+msgid ""
+"if 'presetPos' is not specified, and placemark is created against object,"
+" the placemark is located on the top of the object by default."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "posFromBuffer"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Same as presetPos，set placemark position by buffer"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "layoutOffset"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid ""
+"offset from target object, if placemark type is 'Plane', use (x,y,z) as "
+"coordinate, if placemark type is 'screen'， use (x,y) as coordinate."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "turnWhenNegative"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Apply to (x,y) coordinate"
+msgstr ""
+
+#: ../../source/ui.rst:3
+msgid ""
+"if turnWhenNegative=true，coordinate is calculated as opposite, for "
+"instance, [-0.1, -100] point to position with right 10%, 100 pixels below"
+msgstr ""
+
+#: ../../source/ui.rst:4 ../../source/ui.rst:5
+msgid ""
+"if turnWhenNegative=false，coordinate is located outside the screen. for "
+"instance, [-0.1, -100]point to position left -10%, up -100 pixels"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "countPerFrame"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Number of placemark object can be shown simultaneously"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "additiveDataObjects"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid ""
+"While placemark is created against object, target object be used as data "
+"source. If placemark need multiple data source , or not created against "
+"object, this parameter can be used to specifiy data source can be key-"
+"value, id, uid or buffer"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "updateTime"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid ""
+"Data refresh interval in seconds, if placemark is linked to external data"
+" source"
+msgstr ""
+
+#: ../../source/ui.rst:438
+msgid "Create a monitoring panel to an object without placemarkId"
+msgstr ""
+
+#: ../../source/ui.rst:452
+msgid "Create monitoring panel to multiple objects"
+msgstr ""
+
+#: ../../source/ui.rst:466
+msgid "Create 2D placemark with multiple data source"
+msgstr ""
+
+#: ../../source/ui.rst:486
+msgid "DestroyPlacemark"
+msgstr ""
+
+#: ../../source/ui.rst:488
+msgid "Destroy Placemark."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid ""
+"If no placemarkId is specified while placemark is created, use ``{object "
+"uid}_{template name}`` as placemarkId，so templateName is need to delete "
+"placemark"
+msgstr ""
+
+#: ../../source/ui.rst:500
+msgid "use object id and template name to destroy placemark"
+msgstr ""
+
+#: ../../source/ui.rst:511
+msgid "use templateName to bulk delete placemark"
+msgstr ""
+
+#: ../../source/ui.rst:522
+msgid "use placemarkId to delete placemark"
+msgstr ""
+
+#: ../../source/ui.rst:535
+msgid "GetLastClickedButtonPlacemarkHost"
+msgstr ""
+
+#: ../../source/ui.rst:537
+msgid ""
+"Simular to GetLastEventObj and GetLastMonitorRespondObj，click on "
+"placemark will return object reference."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "toBuffer"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "buffer which store the object"
+msgstr ""
+
+#: ../../source/ui.rst:560
+msgid "SetPlacemarkProperty"
+msgstr ""
+
+#: ../../source/ui.rst:562
+msgid "Modify property of existing placemark."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Must specify placemarkId if placemark is created with placemarkId"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid ""
+"TemplateName, note that if placemark is created without placemarkId, "
+"system will use ``{object_uid}_{template name}`` as placemarkId"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "widgetName"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Control name"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "property"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Control property name"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "value"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "\"Value to be modified."
+msgstr ""
+
+#: ../../source/ui.rst:4
+msgid ""
+"system use strong type internally. String, number or boolean can be used "
+"as normal, for other data type, the name of data type need to be "
+"specified. for instance, vector3，color should be wrote as:"
+msgstr ""
+
+#: ../../source/ui.rst:6
+msgid "``{Vector3:[1,0,0]}``"
+msgstr ""
+
+#: ../../source/ui.rst:7
+msgid "``{Vector2:[1,0]}``"
+msgstr ""
+
+#: ../../source/ui.rst:8
+msgid "``{Color:[1,0,0,1]}``"
+msgstr ""
+
+#: ../../source/ui.rst:10
+msgid "\""
+msgstr ""
+
+#: ../../source/ui.rst:587
+msgid "String, number or boolean used as normal"
+msgstr ""
+
+#: ../../source/ui.rst:601
+msgid "Specify data type if data type is vector3，color, etc."
+msgstr ""
+
+#: ../../source/ui.rst:619
+msgid "CreateLayerPanel"
+msgstr ""
+
+#: ../../source/ui.rst:621
+msgid "A build-in, easy to use, multi-function Panel provided by system."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Position, use (x,y) as coordinate"
+msgstr ""
+
+#: ../../source/ui.rst:4
+msgid "default position is on top of object."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Same as presetPos，set position from buffer"
+msgstr ""
+
+#: ../../source/ui.rst:707
+msgid "DestroyLayerPanel"
+msgstr ""
+
+#: ../../source/ui.rst:709
+msgid "Destroy Layer Panel."
+msgstr ""
+
+#: ../../source/ui.rst:714 ../../source/ui.rst:786 ../../source/ui.rst:888
+msgid "No parameters."
+msgstr ""
+
+#: ../../source/ui.rst:729
+msgid "ChangeLayerPanelItems"
+msgstr ""
+
+#: ../../source/ui.rst:731
+msgid "Check or uncheck panel item."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "items"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Set check status by array"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "state"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "``true`` means check, ``false`` means uncheck"
+msgstr ""
+
+#: ../../source/ui.rst:755
+msgid "ShowLayerPanel"
+msgstr ""
+
+#: ../../source/ui.rst:757
+msgid "Show or hide Panel."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Panel name"
+msgstr ""
+
+#: ../../source/ui.rst:779
+msgid "ShowHideLayerPanel"
+msgstr ""
+
+#: ../../source/ui.rst:781
+msgid "Show or hide panel."
+msgstr ""
+
+#: ../../source/ui.rst:801
+msgid "ShowPropListPanel"
+msgstr ""
+
+#: ../../source/ui.rst:803
+msgid ""
+"A build-in, easy to use 'object property panel', can be also used to "
+"config function buttons."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Panel position, use (x,y) as coordinate."
+msgstr ""
+
+#: ../../source/ui.rst:4
+msgid "Default position is on top of object."
+msgstr ""
+
+#: ../../source/ui.rst:881
+msgid "HidePropListPanel"
+msgstr ""
+
+#: ../../source/ui.rst:883
+msgid "Hide property list panel."
+msgstr ""
+
+#: ../../source/ui.rst:903
+msgid "ChangePropListPanelItems"
+msgstr ""
+
+#: ../../source/ui.rst:905
+msgid "Change panel button status."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Array to set button status in bulk"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "``ture`` means clicked, ``false`` means unclicked"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "exeCommands"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Run command while state changed to clicked"
+msgstr ""
+
+#: ../../source/ui.rst:930
+msgid "SetPropListPanelKeyValue"
+msgstr ""
+
+#: ../../source/ui.rst:932
+msgid "Show object property on panel."
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "valueBuffer"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Buffer name"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "names"
+msgstr ""
+
+#: ../../source/ui.rst:1
+msgid "Get data from buffer by order of name array"
+msgstr ""
+
