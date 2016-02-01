@@ -27,27 +27,27 @@ msgstr ""
 
 #: ../../source/calculate.rst:9
 msgid "Calculate objects center."
-msgstr ""
+msgstr "计算输入物体集合的中心点"
 
 #: ../../source/calculate.rst
 msgid "**Parameters**"
-msgstr ""
+msgstr "参数"
 
 #: ../../source/calculate.rst:1
 msgid "Name"
-msgstr ""
+msgstr "参数名称"
 
 #: ../../source/calculate.rst:1
 msgid "Required"
-msgstr ""
+msgstr "必填"
 
 #: ../../source/calculate.rst:1
 msgid "Default"
-msgstr ""
+msgstr "缺省值"
 
 #: ../../source/calculate.rst:1
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../../source/calculate.rst:1
 msgid ":ref:`Object Reference <api-object-label>`"
@@ -55,11 +55,11 @@ msgstr ""
 
 #: ../../source/calculate.rst:1
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ../../source/calculate.rst:1
 msgid "Object Reference"
-msgstr ""
+msgstr "对象引用"
 
 #: ../../source/calculate.rst:1
 msgid "offset"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../source/calculate.rst:1
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: ../../source/calculate.rst:1
 msgid "``[0,0,0]``"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: ../../source/calculate.rst:1
 msgid "Offset to calculated result"
-msgstr ""
+msgstr "在计算结果上再增加一个偏移"
 
 #: ../../source/calculate.rst:1
 msgid "toBuffer"
@@ -83,21 +83,19 @@ msgstr ""
 
 #: ../../source/calculate.rst:1
 msgid "Buffer to save result"
-msgstr ""
+msgstr "设置计算结果存储的buffer"
 
 #: ../../source/calculate.rst:19 ../../source/calculate.rst:47
 msgid "**Example**"
-msgstr ""
+msgstr "代码示例"
 
 #: ../../source/calculate.rst:33
 msgid "CalculateWorldToViewport"
 msgstr ""
 
 #: ../../source/calculate.rst:35
-msgid ""
-"Given world coordinate, calculate 3D viewpoint coordinate. Note, 3D "
-"viewpoint coordinate is different from screen coordinate."
-msgstr ""
+msgid "Given world coordinate, calculate 3D viewpoint coordinate. Note, 3D viewpoint coordinate is different from screen coordinate."
+msgstr "输入的世界坐标位置转换为3D视口屏幕的坐标，并返回。注意返回的不是相对整个屏幕的坐标，而是3D视口的."
 
 #: ../../source/calculate.rst:1
 msgid "pos"
@@ -105,7 +103,7 @@ msgstr ""
 
 #: ../../source/calculate.rst:1
 msgid "Position in world coordinate."
-msgstr ""
+msgstr "输入要转换的世界坐标"
 
 #: ../../source/calculate.rst:1
 msgid "fromBuffer"
@@ -113,9 +111,9 @@ msgstr ""
 
 #: ../../source/calculate.rst:1
 msgid "Buffer of world coordinate"
-msgstr ""
+msgstr "通过buffer输入要转换的世界坐标"
 
 #: ../../source/calculate.rst:1
 msgid "Save calculate result to buffer"
-msgstr ""
+msgstr "设置计算结果存储的buffer"
 

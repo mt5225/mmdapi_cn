@@ -31,11 +31,11 @@ msgstr "本文档介绍MMD API的使用方式，消息格式及代码示例，�
 
 #: ../../source/index.rst:9
 msgid ":ref:`API Concepts <api-concepts-label>`"
-msgstr "MMD API概念介绍"
+msgstr ":ref:`API 概念介绍 <api-concepts-label>`"
 
 #: ../../source/index.rst:10
 msgid ":ref:`API Reference <api-reference-label>`"
-msgstr "API 参考"
+msgstr ":ref:`API 参考 <api-reference-label>`"
 
 #: ../../source/index.rst:13
 msgid "Contents"
